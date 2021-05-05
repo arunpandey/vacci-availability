@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 @AllArgsConstructor
 public class Availability implements Runnable {
 
-    private static final String URL = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin?pincode=211004&date=05-05-2021";
+    private static final String URL = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin";
     private String pin;
     private String date;
 
